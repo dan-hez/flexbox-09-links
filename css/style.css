@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c3d1da;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #fff;
+    width: 900px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 5px 10px 5px #858d953b;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    color: #474747;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 16px;
+}
+main{
+    margin-top: 5%;
+    margin-left: 3%;
+    display: flex;
+    flex-flow: row;
+}
+.box-left{
+    width: 550px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    color: #3d3d3d;
+    width: 250px;
+    height: 150px;
+    margin-right: 3%;
+}
+h4{
+    font-size: 14px;
+    margin-left: 5%;
+    margin-top: 5%;
+    color: rgb(83, 83, 83);
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    margin: 5% 5%;
+    color: rgb(68, 68, 68);
+}
+.yellow-box{
+    width: 250px;
+    height: 150px;
+    background-color: #e9c050;
+    border-radius: 8px;
+}
+.white-circle{
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yellow-circle{
+    width: 40px;
+    height: 40px;
+    background-color: #e9c050;
+    border-radius: 70%;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-right{
+    width: 200px;
+    height: auto;
+    margin-left: 3%;
+    display: flex;
+    flex-flow: row wrap;
+}
+aside{
+    width: 200px;
+    height: 320px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 2px #858d9542;
+    display: flex;
+    flex-direction: column;
+}
+span{
+    color: #e0b438;
+    font-size: 11px;
+    margin: -5px 0 5px 20px;
+}
+.grey-box{
+    width: 180px;
+    height: 70px;
+    padding-bottom: 5px;
+    margin-left: 5%;
+    background-color: #dfdfdf;
+    border-radius: 3px;
+}
+.grey-p{
+    margin-top: 0;
+}
+aside p{
+    font-weight: 600;
+    color: #5f5f5f;
+}
+aside h4, aside p{
+    padding: 5%;
+}
